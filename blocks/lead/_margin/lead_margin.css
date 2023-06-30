@@ -1,0 +1,15 @@
+.lead_margin {
+  margin: 0 auto 92px;
+}
+
+@media screen and (max-width: 768px) {
+  .lead_margin {
+    margin: 0 auto 88px;
+  }
+}
+  
+@media screen and (max-width: 320px) {
+  .lead_margin {
+    margin: 0 auto 64px;
+  }
+}

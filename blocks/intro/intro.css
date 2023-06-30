@@ -1,0 +1,22 @@
+.intro {
+  max-width: 984px;
+  color: white;
+}
+  
+@media screen and (max-width: 1024px) {
+  .intro {
+    max-width: calc(100% - 96px);
+  }
+}
+  
+@media screen and (max-width: 768px) {
+  .intro {
+    max-width: calc(100% - 48px);
+  }
+}
+  
+@media screen and (max-width: 320px) {
+  .intro {
+    max-width: calc(100% - 32px);
+  }
+}
