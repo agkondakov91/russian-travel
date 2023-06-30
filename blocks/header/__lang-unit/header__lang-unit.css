@@ -1,0 +1,7 @@
+.header__lang-unit {
+  margin-right: 18px;
+}
+  
+.header__lang-unit:last-child {
+  margin-right: 0;
+}

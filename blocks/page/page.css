@@ -33,6 +33,8 @@
   font-weight: normal;
 }
 
+/* глобальные стили страницы */
+
 .page {
   max-width: 1280px;
   margin: 0 auto;

@@ -3,3 +3,12 @@
 
 /* глобальные стили */
 @import url(../blocks/page/page.css);
+
+/* -- Header -- */
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/_margin/header_margin.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-link/header__lang-link.css);
+@import url(../blocks/header/__lang-unit/header__lang-unit.css);
+@import url(../blocks/header/__lang-list/header__lang-list.css);
+@import url(../blocks/header/__lang-list/_switch/header__lang-list_switch_on.css);
