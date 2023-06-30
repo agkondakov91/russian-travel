@@ -1,7 +1,11 @@
 .header {
   max-width: calc(100% - 96px);
   max-height: 52px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
   margin: 0 auto;
   color: #fff;

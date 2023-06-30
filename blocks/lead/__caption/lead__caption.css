@@ -1,4 +1,6 @@
 .lead__caption {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   font-family: 'Inter', sans-serif;
   font-weight: normal;
