@@ -1,0 +1,19 @@
+.place__link {
+  color: white;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  text-decoration: none;
+  border-bottom: 1px solid white;
+  font-family: 'Inter', sans-serif;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 1.2em;
+  -webkit-transition: opacity .3s;
+  -o-transition: opacity .3s;
+  transition: opacity .3s;
+}
+  
+.place__link:hover {
+  opacity: .8;
+}

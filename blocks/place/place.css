@@ -1,0 +1,37 @@
+.place {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: minmax(460px, 1fr) 40px minmax(-webkit-min-content, -webkit-max-content);
+  -ms-grid-columns: minmax(460px, 1fr) 40px minmax(min-content, max-content);
+  grid-template-columns: minmax(460px, 1fr) minmax(-webkit-min-content, -webkit-max-content);
+  grid-template-columns: minmax(460px, 1fr) minmax(min-content, max-content);
+  gap: 48px 40px;
+}
+  
+@media screen and (max-width: 1024px) {
+  .place {
+    -ms-grid-columns: minmax(440px, 1fr) 32px minmax(-webkit-min-content, -webkit-max-content);
+    -ms-grid-columns: minmax(440px, 1fr) 32px minmax(min-content, max-content);
+    grid-template-columns: minmax(440px, 1fr) minmax(-webkit-min-content, -webkit-max-content);
+    grid-template-columns: minmax(440px, 1fr) minmax(min-content, max-content);
+    gap: 48px 32px;
+  }
+}
+    
+@media screen and (max-width: 768px) {
+  .place {
+    -ms-grid-columns: minmax(340px, 1fr) 28px minmax(-webkit-min-content, -webkit-max-content);
+    -ms-grid-columns: minmax(340px, 1fr) 28px minmax(min-content, max-content);
+    grid-template-columns: minmax(340px, 1fr) minmax(-webkit-min-content, -webkit-max-content);
+    grid-template-columns: minmax(340px, 1fr) minmax(min-content, max-content);
+    gap: 48px 28px;
+  }
+}
+    
+@media screen and (max-width: 600px) {
+  .place {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+}

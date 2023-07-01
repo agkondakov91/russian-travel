@@ -1,0 +1,18 @@
+.place__website {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-item-align: end;
+  align-self: flex-end;
+}
+  
+@media screen and (max-width: 320px) {
+  .place__website {
+    margin: 0 16px;
+    max-width: calc(100% - 32px);
+  }
+}
