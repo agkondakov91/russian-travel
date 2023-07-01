@@ -1,4 +1,9 @@
 .header__lang-list {
   color: #fff;
   text-decoration: none;
+  transition: opacity .3s;
+}
+
+.header__lang-list:hover {
+  opacity: .6;
 }
