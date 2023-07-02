@@ -40,6 +40,8 @@
 /* -- Places -- */
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/_margin/places_margin.css);
+
+/* -- Place -- */
 @import url(../blocks/place/place.css);
 @import url(../blocks/place/_margin/place_margin.css);
 @import url(../blocks/place/__title/place__title.css);
@@ -49,4 +51,11 @@
 @import url(../blocks/place/__image/place__image.css);
 @import url(../blocks/place/__paragraphs/place__paragraphs.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
+
+/* -- Cover -- */
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/_margin/cover_margin.css);
+@import url(../blocks/cover/__overlay/cover__overlay.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
