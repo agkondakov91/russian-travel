@@ -1,0 +1,13 @@
+.footer__link {
+  text-decoration: none;
+  color: white;
+  -webkit-transition: opacity .3s;
+  -o-transition: opacity .3s;
+  transition: opacity .3s;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__link:hover {
+    opacity: .8;
+  }
+}

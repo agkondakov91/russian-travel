@@ -1,0 +1,32 @@
+.footer__item {
+  margin-right: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.footer__item:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 740px) {
+  .footer__item {
+    margin: 0 0 32px;
+    font-size: 32px;
+    line-height: 34px;
+    text-align: center;
+  }
+
+  .footer__item:last-child {
+    margin: 0 0 48px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .footer__item {
+    font-size: 24px;
+    line-height: 24px;
+    text-align: left;
+  }
+}

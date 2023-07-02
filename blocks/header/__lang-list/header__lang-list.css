@@ -4,6 +4,8 @@
   transition: opacity .3s;
 }
 
-.header__lang-list:hover {
-  opacity: .8;
+@media screen and (min-width: 1200px) {
+  .header__lang-list:hover {
+    opacity: .8;
+  }
 }
