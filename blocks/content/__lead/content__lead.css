@@ -1,15 +1,15 @@
-.photo-grid_margin {
+.content__lead {
   margin: 0 auto 92px;
 }
-      
+
 @media screen and (max-width: 768px) {
-  .photo-grid_margin {
+  .content__lead {
     margin: 0 auto 88px;
   }
 }
-      
+
 @media screen and (max-width: 320px) {
-  .photo-grid_margin {
+  .content__lead {
     margin: 0 auto 64px;
   }
 }

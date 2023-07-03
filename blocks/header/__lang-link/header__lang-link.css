@@ -1,22 +1,11 @@
 .header__lang-link {
-  margin: 0;
-  margin-top: 18px;
-  list-style: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
-  font-family: 'Inter', sans-serif;
-  font-weight: normal;
-  font-size: 24px;
-  line-height: 28px;
-  text-align: right;
+  color: #fff;
+  text-decoration: none;
+  transition: opacity .3s;
 }
 
-@media screen and (max-width: 320px) {
-  .header__lang-link {
-    margin-top: 14px;
-    font-size: 18px;
-    line-height: 20px;
+@media screen and (min-width: 1024px) {
+  .header__lang-link:hover {
+    opacity: .8;
   }
 }

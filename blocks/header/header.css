@@ -1,6 +1,5 @@
 .header {
   max-width: calc(100% - 96px);
-  max-height: 52px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
