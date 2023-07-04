@@ -2,7 +2,6 @@
   display: -ms-grid;
   display: grid;
   max-width: calc(100% - 96px);
-  max-height: 671px;
   -ms-grid-columns: 1fr 16px 1fr 16px 1fr 16px 1fr;
   grid-template-columns: repeat(4, 1fr);
   -ms-grid-rows: 1fr 16px 1fr 16px 1fr;
@@ -12,7 +11,6 @@
   
 @media screen and (max-width: 1024px) {
   .photo-grid {
-    max-height: 942px;
     -ms-grid-columns: 1fr 14px 1fr 14px 1fr;
     grid-template-columns: repeat(3, 1fr);
     -ms-grid-rows: 1fr 14px 1fr 14px 1fr 14px 1fr;
@@ -24,7 +22,6 @@
 @media screen and (max-width: 768px) {
   .photo-grid {
     max-width: calc(100% - 48px);
-    max-height: 1664px;
     -ms-grid-columns: 1fr 16px 1fr;
     grid-template-columns: repeat(2, 1fr);
     -ms-grid-rows: 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr;
@@ -36,7 +33,6 @@
 @media screen and (max-width: 320px) {
   .photo-grid {
     max-width: calc(100% - 32px);
-    max-height: 2724px;
     -ms-grid-columns: 1fr;
     grid-template-columns: 1fr;
     -ms-grid-rows: 1fr 12px 1fr 12px 1fr 12px 1fr 12px 1fr 12px 1fr 12px 1fr 12px 1fr 12px 1fr 12px 1fr 12px 1fr 12px 1fr;
