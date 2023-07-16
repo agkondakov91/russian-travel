@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 768px) {
   .content__places {
-    margin: 0 auto 90px;
+    margin: 0 auto calc(66px + (90 - 66) * (100vw - 320px) / (768 - 320));
   }
 }
 

@@ -1,7 +1,7 @@
 .photo-grid {
   display: -ms-grid;
   display: grid;
-  max-width: calc(100% - 96px);
+  max-width: calc(928px + (1184 - 928) * (100% - 1024px) / (1280 - 1024));
   -ms-grid-columns: 1fr 16px 1fr 16px 1fr 16px 1fr;
   grid-template-columns: repeat(4, 1fr);
   -ms-grid-rows: 1fr 16px 1fr 16px 1fr;
@@ -21,7 +21,7 @@
   
 @media screen and (max-width: 768px) {
   .photo-grid {
-    max-width: calc(100% - 48px);
+    max-width: calc(288px + (720 - 288) * (100vw - 320px) / (768 - 320));
     -ms-grid-columns: 1fr 16px 1fr;
     grid-template-columns: repeat(2, 1fr);
     -ms-grid-rows: 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr 16px 1fr;

@@ -8,9 +8,11 @@
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (max-width: 490px) {
+@media screen and (max-width: 768px) {
   .intro__title {
-    font-size: 38px;
+    max-width: calc(250px + (720 - 250) * (100vw - 320px) / (768 - 320));
+    font-size: calc(32px + (54 - 32) * (100vw - 320px) / (768 - 320));
+    line-height: calc(35px + (58 - 35) * (100vw - 320px) / (768 - 320));
   }
 }
 

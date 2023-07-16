@@ -4,7 +4,7 @@
 
 @media screen and (max-width: 768px) {
   .content__lead {
-    margin: 0 auto 88px;
+    margin: 0 auto calc(64px + (88 - 64) * (100vw - 320px) / (768 - 320));
   }
 }
 
