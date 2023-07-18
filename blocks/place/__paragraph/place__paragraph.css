@@ -7,9 +7,9 @@
   line-height: 163%;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .place__paragraph {
-    font-size: 1.8vw;
+    font-size: calc(16px + (18 - 16) * (100vw - 768px) / (1024 - 768));
   }
 }
 
@@ -19,19 +19,6 @@
     font-size: 16px;
   }
 }
-
-@media (min-width: 671px) and (max-width: 760px) {
-  .place__paragraph {
-    font-size: 2.1vw;
-  }
-}
-
-@media screen and (max-width: 670px) {
-  .place__paragraph {
-    font-size: 16px;
-  }
-}
-
   
 .place__paragraph:last-child {
   margin-bottom: 0;
